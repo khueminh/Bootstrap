@@ -19,11 +19,11 @@
                                     @{TITLE: @"Demo Slider", CLASS: @"DemoSlider"},
                                     @{TITLE: @"Demo Selector", CLASS: @"DemoSelector"}
                           ]};
-    NSDictionary* intermediate = @{SECTION: @"Demo", MENU: @[
-                                    @{TITLE: @"UISwitch", CLASS: @"newSwitch"},
-                                    @{TITLE: @"Skew Image", CLASS: @"SkewImage"}
-                                   
-                                  ]};
+//    NSDictionary* intermediate = @{SECTION: @"Demo", MENU: @[
+//                                    @{TITLE: @"UISwitch", CLASS: @"newSwitch"},
+//                                    @{TITLE: @"Skew Image", CLASS: @"SkewImage"}
+//                                   
+//                                  ]};
 
     NSDictionary* uiviewdemo = @{SECTION: @"UIView Demo", MENU: @[
                                     @{TITLE: @"Basic UIView", CLASS: @"BasicView"},
@@ -32,14 +32,31 @@
                                  
                                    ]};
     
+    NSDictionary* quicksortDemo = @{SECTION: @"QuickSort Demo", MENU: @[
+                                         @{TITLE: @"QuickSort Number", CLASS: @"QuickSortNumber"},
+                                         @{TITLE: @"QuickSort String", CLASS: @"QuickSortNSString"}
+                                         
+                                         
+                                         ]};
+    NSDictionary* ArrayCategory = @{SECTION: @"Category Demo", MENU: @[
+                                        @{TITLE: @"Count Words", CLASS: @"CountWords"}
+    
+    
+                                       ]};
+    
+    
     NSDictionary* SliderAdv = @{SECTION: @"UISlider Advanced", MENU: @[
                                          @{TITLE: @"UISlider Level 1", CLASS: @"SliderAdvancedL1"},
                                          @{TITLE: @"UISlider Level 2", CLASS: @"UISliderAdvanced"}
                                          ]};
-    
+    NSDictionary* imageView = @{SECTION: @"UIImageView Demo", MENU: @[
+                                            @{TITLE: @"CampFire", CLASS: @"CampFire"}
+                                            
+                                            
+                                            ]};
 
     
-    mainScreen.menu = @[basic, intermediate, uiviewdemo, SliderAdv];
+    mainScreen.menu = @[basic, quicksortDemo, ArrayCategory, imageView, uiviewdemo, SliderAdv];
     mainScreen.title = @"Bootstrap App";
     mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------
