@@ -27,9 +27,9 @@
 
     NSDictionary* uiviewdemo = @{SECTION: @"UIView Demo", MENU: @[
                                     @{TITLE: @"Basic UIView", CLASS: @"BasicView"},
-                                    @{TITLE: @"Chess UIView", CLASS: @"ChessView"}
-                                    
-                                 
+                                    @{TITLE: @"Chess UIView", CLASS: @"ChessView"},
+                                    @{TITLE: @"Flying Bird", CLASS: @"FlyingBird"},
+                                    @{TITLE: @"CampFire", CLASS: @"CampFire"}
                                    ]};
     
     NSDictionary* quicksortDemo = @{SECTION: @"QuickSort Demo", MENU: @[
@@ -49,14 +49,15 @@
                                          @{TITLE: @"UISlider Level 1", CLASS: @"SliderAdvancedL1"},
                                          @{TITLE: @"UISlider Level 2", CLASS: @"UISliderAdvanced"}
                                          ]};
-    NSDictionary* imageView = @{SECTION: @"UIImageView Demo", MENU: @[
-                                            @{TITLE: @"CampFire", CLASS: @"CampFire"}
-                                            
-                                            
-                                            ]};
+
+//    NSDictionary* EightQueensDemo = @{SECTION: @"8Queens Demo", MENU: @[
+//                                        @{TITLE: @"Eight Queens", CLASS: @"EightQueens"}
+//                                        
+//                                        
+//                                        ]};
 
     
-    mainScreen.menu = @[basic, quicksortDemo, ArrayCategory, imageView, uiviewdemo, SliderAdv];
+    mainScreen.menu = @[basic, quicksortDemo, ArrayCategory, uiviewdemo, SliderAdv];
     mainScreen.title = @"Bootstrap App";
     mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------
