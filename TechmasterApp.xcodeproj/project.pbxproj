@@ -14,6 +14,7 @@
 		131967921B4C3AFA0051A224 /* max.png in Resources */ = {isa = PBXBuildFile; fileRef = 131967911B4C3AF90051A224 /* max.png */; };
 		131967941B4C3BCF0051A224 /* min.png in Resources */ = {isa = PBXBuildFile; fileRef = 131967931B4C3BCF0051A224 /* min.png */; };
 		13319EC31B5C0ED200C54D4B /* EightQueens.m in Sources */ = {isa = PBXBuildFile; fileRef = 13319EC21B5C0ED200C54D4B /* EightQueens.m */; };
+		137342E71B5EA1B000D79317 /* DictionaryArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 137342E61B5EA1B000D79317 /* DictionaryArray.m */; };
 		13785CAF1B4EAD1600372204 /* OffBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 13785CAB1B4EAD1600372204 /* OffBlack.png */; };
 		13785CB01B4EAD1600372204 /* OnBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 13785CAC1B4EAD1600372204 /* OnBlack.png */; };
 		13785CB11B4EAD1600372204 /* OffWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 13785CAD1B4EAD1600372204 /* OffWhite.png */; };
@@ -109,6 +110,8 @@
 		131967931B4C3BCF0051A224 /* min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = min.png; sourceTree = "<group>"; };
 		13319EC11B5C0ED200C54D4B /* EightQueens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EightQueens.h; sourceTree = "<group>"; };
 		13319EC21B5C0ED200C54D4B /* EightQueens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightQueens.m; sourceTree = "<group>"; };
+		137342E51B5EA1B000D79317 /* DictionaryArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryArray.h; sourceTree = "<group>"; };
+		137342E61B5EA1B000D79317 /* DictionaryArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryArray.m; sourceTree = "<group>"; };
 		13785CAB1B4EAD1600372204 /* OffBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffBlack.png; sourceTree = "<group>"; };
 		13785CAC1B4EAD1600372204 /* OnBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnBlack.png; sourceTree = "<group>"; };
 		13785CAD1B4EAD1600372204 /* OffWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffWhite.png; sourceTree = "<group>"; };
@@ -294,6 +297,15 @@
 				13319EC21B5C0ED200C54D4B /* EightQueens.m */,
 			);
 			name = EightQueensChess;
+			sourceTree = "<group>";
+		};
+		137342E11B5E9E6600D79317 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				137342E51B5EA1B000D79317 /* DictionaryArray.h */,
+				137342E61B5EA1B000D79317 /* DictionaryArray.m */,
+			);
+			name = Dictionary;
 			sourceTree = "<group>";
 		};
 		1394BA1C1B575D76004ECA74 /* DemoSwitch */ = {
@@ -490,6 +502,7 @@
 		E24EF57619BC61D3007D17C7 /* DetailScreens */ = {
 			isa = PBXGroup;
 			children = (
+				137342E11B5E9E6600D79317 /* Dictionary */,
 				13DC59F31B5E914D00659F54 /* FlyingBird */,
 				13319EC01B5C0EA600C54D4B /* EightQueensChess */,
 				13D2C3881B5C0A200074B615 /* UIImageViewAnimation */,
@@ -684,6 +697,7 @@
 				13B234121B41ABBA001F4E5A /* InterB.m in Sources */,
 				1319678F1B4C31AF0051A224 /* DemoSelector.m in Sources */,
 				13D2C3841B5C07610074B615 /* NSMutableArray+WordsCount.m in Sources */,
+				137342E71B5EA1B000D79317 /* DictionaryArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

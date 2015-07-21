@@ -14,6 +14,8 @@
 {
     UIImageView *bird;
     AVAudioPlayer *audio;
+    
+    
 }
 @end
 

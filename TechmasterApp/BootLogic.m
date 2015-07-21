@@ -44,6 +44,11 @@
     
                                        ]};
     
+    NSDictionary* dictDemo = @{SECTION: @"Dictionary Demo", MENU: @[
+                                            @{TITLE: @"Find Words", CLASS: @"DictionaryArray"}
+                                            
+                                            
+                                            ]};
     
     NSDictionary* SliderAdv = @{SECTION: @"UISlider Advanced", MENU: @[
                                          @{TITLE: @"UISlider Level 1", CLASS: @"SliderAdvancedL1"},
@@ -57,7 +62,7 @@
 //                                        ]};
 
     
-    mainScreen.menu = @[basic, quicksortDemo, ArrayCategory, uiviewdemo, SliderAdv];
+    mainScreen.menu = @[basic, quicksortDemo, ArrayCategory, uiviewdemo, dictDemo];
     mainScreen.title = @"Bootstrap App";
     mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------
