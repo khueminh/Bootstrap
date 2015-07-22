@@ -79,4 +79,8 @@
         }];
     }];
 }
+
+-(void) viewWillDisappear:(BOOL) animated{
+    [audio stop];
+}
 @end
